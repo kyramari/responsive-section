@@ -60,7 +60,12 @@ p {
 
   .img-flex {
     max-width: 85%;
-    margin: 0;
+  }
+
+  p {
+      margin: 0;
+      padding-bottom: 1.5em;
+      max-width: 95%;
   }
 
 }
@@ -70,6 +75,16 @@ p {
   .wrapper {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .section-icon {
+    float: right;
+    max-width: 40%;
+  }
+
+  .section-letter {
+    float: left;
+    max-width: 40%;
   }
 
 }
